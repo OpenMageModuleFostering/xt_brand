@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/Xt_Brand",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Brand Management extension to add different brand and its attributes from admin panel.
+",
+    "authors": [
+    {
+        "name": "Rik Sen",
+        "email": "pm@hire-developer.co.uk"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

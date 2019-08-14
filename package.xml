@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Xt_Brand</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Brand Management extension to add different brand and its attributes from admin panel.&#xD;
+</summary>
+    <description>Brand Management extension to add different brand and its attributes(like brand image, description) and assigning product to each brand from admin panel. The list of available brand will display on front-end with the provision to navigate each brand page to view individual brand details and products assigned on it.&#xD;
+</description>
+    <notes>This extension is a stable version.</notes>
+    <authors><author><name>Rik Sen</name><user>pmgr</user><email>pm@hire-developer.co.uk</email></author></authors>
+    <date>2013-02-01</date>
+    <time>13:07:07</time>
+    <contents><target name="magelocal"><dir name="XT"><dir name="Brand"><dir name="Block"><dir name="Adminhtml"><dir name="Brand"><dir name="Edit"><file name="Form.php" hash="dcd90e8ae66db3420b7c26111e357d5e"/><dir name="Tab"><file name="Form.php" hash="d0e775ec8b8950131378570ce9473a7a"/><file name="Grid.php" hash="b0c15c18fd3651269e428c1a1ace6610"/><file name="Store.php" hash="10dc506d8809446af12cc5e12854e228"/></dir><file name="Tabs.php" hash="1a82483512d9a33e0885fd24b17673b0"/></dir><file name="Edit.php" hash="2cb9ec5994fff018f51e68a34dcea05c"/><file name="Grid.php" hash="311efc3e39483ad56e9c94dfb491ce7b"/></dir><file name="Brand.php" hash="97f897f7b7b6833b3ca506062efc2424"/></dir><file name="Brand.php" hash="eafb210a0351f9eb70407ddd00f2791e"/></dir><dir name="Helper"><file name="Data.php" hash="020f54d09424828b3ebfa10d5eed5a49"/></dir><dir name="Model"><file name="Brand.php" hash="a614da88ceaba1fbf21c94ae7c6080cc"/><file name="Grid.php" hash="1f06bfad9c5c16f29e373c1486dd1436"/><dir name="Mysql4"><dir name="Brand"><file name="Collection.php" hash="d61cb9137f782d54bff1f1675d4fcec7"/></dir><file name="Brand.php" hash="070a0d0d82aa09ee00fa8f0d12edcfe2"/><dir name="Grid"><file name="Collection.php" hash="836e7f9bd4e652a9b4bbb1f8cb924cca"/></dir><file name="Grid.php" hash="634030e8e3e0efe5546ef78cb0de232a"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="BrandController.php" hash="bc8e5470e65ff61b44f64a22865e10e0"/></dir><file name="IndexController.php" hash="2551cdffa34ba8d8478c76fba9644b2e"/></dir><dir name="etc"><file name="config.xml" hash="76acb7bf62c9de063180727ec9200904"/></dir><dir name="sql"><dir name="brand_setup"><file name="mysql4-install-0.1.0.php" hash="e461607afd35da46980edffd958f571c"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="XT_Brand.xml" hash="20a1081316ec17e4533f23959db7d9dd"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="brand.xml" hash="c754bbeb5330ebf2db2cd7d5befeee52"/></dir><dir name="template"><dir name="brand"><file name="brand_left.phtml" hash="496e3a358f88f02cf74482c9ea87f164"/><file name="brand_list.phtml" hash="a009fc28e2d3280a694deb2bbf7a9e7a"/><file name="brand_products.phtml" hash="aa3023a633e3032c6689b0198242197e"/></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="brand.xml" hash="a950e33a108b04cba856c3c5d9f11983"/></dir><dir name="template"><dir name="brand"><file name="stores.phtml" hash="cbfe10b7765ec5ca2a18cde5d2b5bbd5"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,11 @@
+<?php $collection = Mage::getModel('brand/brand')->getCollection()->getData();
+if(count($collection) > 0): ?>
+<div class="block"> <span class="c1"></span> <span class="c2"></span> <span class="c3"></span> <span class="c4"></span>
+  <div class="block-title"> <strong><span>Browse by Brand</span></strong> </div>
+  <ul class="side-nav">
+   <?php foreach($collection as $brand): ?>
+    <li><a href="<?php echo $this->getUrl('brand/').$brand['brand_url'] ?>"><?php echo $brand['title']; ?></a> </li>
+   <?php endforeach; ?>    
+  </ul>
+</div>
+<?php endif; ?>

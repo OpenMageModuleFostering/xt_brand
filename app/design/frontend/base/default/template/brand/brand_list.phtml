@@ -1,0 +1,20 @@
+<?php $collection = Mage::getModel('brand/brand')->getCollection()->getData();//print_r($collection);
+if(count($collection) > 0): ?>
+<div class="block top-box"> <span class="c1"></span> <span class="c2"></span> <span class="c3"></span> <span class="c4"></span>
+  <div class="page-title category-title">
+    <h1>All Brands</h1> 
+  </div>
+</div>
+<div class="s1"></div>
+<div class="brand-main">
+   <?php foreach($collection as $brand): ?>    
+    <div class="brand-top">
+     <h3><a href="<?php echo $this->getUrl('brand/').$brand['brand_url'] ?>"><?php echo $brand['title']; ?></a></h3>
+     <div class="brand-img"><a href="<?php echo $this->getUrl('brand/').$brand['brand_url'] ?>"><img src="<?php echo Mage::getBaseUrl('media').'brand/'.$brand['filename']?>" height="150" width="150"/></a></div>
+     <div class="brand-des"><?php echo substr($brand['description'],0,120).'...';?></div>
+     <br><button class="button" OnClick="window.location.href='<?php echo $this->getUrl('brand/').$brand['brand_url'] ?>';"><span><span>Learn More</span></span></button>
+     
+    </div>
+   <?php endforeach; ?>    
+ </div>
+<?php endif; ?>

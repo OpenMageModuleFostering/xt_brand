@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <XT_Brand>
+            <active>true</active>
+            <codePool>local</codePool>
+        </XT_Brand>
+    </modules>
+</config> 
